@@ -342,9 +342,9 @@ header a{
 }
 #Contact{
     height: 100vh;
-    background-color: #fff;
     color: #000;
     padding: 3%;
+    background-color: #fff;
 }
 #myVideo{
     position: fixed;
@@ -354,10 +354,7 @@ header a{
     min-height: 100%;
     z-index: -1;
 }
-.contact-info{
-    background-color: #fff;
-    backdrop-filter: blur(5px);
-}
+
 .add{
     width: 30%;
 }
