@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santorini|XploreTravel</title>
+    <link rel="stylesheet" href="infostyle.css">
+    <link rel="icon" href="/image/XploreTravels.png" type="image/icon type">
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="/image/Santorini.mp4" type="video/mp4">
+    </video>
+    <div class="info-cont">
+        <div class="btns">
+            <button onclick="goToPage('index.html')" id="back">Go Back</button>
+            <button onclick="SamePage()">Santorini</button>
+            <button onclick="goToPage('crete.html')">Crete</button>
+            <button onclick="goToPage('olympus.html')">Mount Olympus</button>
+        </div>
+        <h1>🌅 Santorini – The Jewel of the Aegean</h1>
+        <p><strong>Location:</strong> Southern Aegean Sea, part of the Cyclades group of islands in Greece</p>
+        <p><strong>Known For:</strong> Stunning sunsets, white-washed buildings with blue domes, volcanic history</p>
+
+        <h2>Overview</h2>
+        <p>Santorini is a volcanic island shaped by one of the largest eruptions in recorded history—the Minoan eruption around 1600 BCE. The eruption gave the island its crescent shape and created a dramatic caldera that attracts millions of visitors every year.</p>
+
+        <h2>Key Attractions</h2>
+        <ul>
+            <li><strong>Oia Village:</strong> Iconic sunset views over the caldera</li>
+            <li><strong>Fira:</strong> Capital with shops, cafes, cliffside views</li>
+            <li><strong>Red & Black Sand Beaches:</strong> Volcanic, colorful shores</li>
+            <li><strong>Ancient Akrotiri:</strong> The "Pompeii of the Aegean"</li>
+        </ul>
+
+        <h2>Culture & Cuisine</h2>
+        <p>Local wines like <em>Assyrtiko</em> and dishes such as <em>tomatokeftedes</em> and <em>fava</em> highlight Santorini’s culinary charm.</p>
+
+        <p><strong>Best Time to Visit:</strong> April to October</p>
+        <p><strong>Fun Fact:</strong> Some believe Santorini is the lost city of Atlantis.</p>
+    </div>
+<script>
+    function goToPage(pageName) {
+        window.location.href = pageName;  // Redirects to selected HTML page
+    }
+    function SamePage(){
+        alert("You are already on same page!")
+    }
+</script>
+</body>
+
+</html>

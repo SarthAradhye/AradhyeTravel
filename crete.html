@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crete|XploreTravel</title>
+    <link rel="stylesheet" href="infostyle.css">
+    <link rel="icon" href="/image/XploreTravels.png" type="image/icon type">
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="/image/crete.mp4" type="video/mp4">
+    </video>
+    <div class="info-cont">
+        <div class="btns">
+            <button onclick="goToPage('index.html')" id="back">Go Back</button>
+            <button onclick="goToPage('santorini.html')">Santorini</button>
+            <button onclick="SamePage()">Crete</button>
+            <button onclick="goToPage('olympus.html')">Mount Olympus</button>
+        </div>
+        <h1>🌄 Crete – The Island of Myths and Mountains</h1>
+        <p><strong>Location:</strong> Southernmost and largest island in Greece</p>
+        <p><strong>Known For:</strong> Minoan civilization, mountain ranges, vibrant towns, beaches</p>
+
+        <h2>Overview</h2>
+        <p>Crete is a land of legends, believed to be the birthplace of Zeus and home to the ancient Minoan civilization. It offers everything from palm-lined beaches to rugged mountains and fertile plateaus.</p>
+
+        <h2>Key Attractions</h2>
+        <ul>
+            <li><strong>Knossos Palace:</strong> Ancient Minoan center</li>
+            <li><strong>Samaria Gorge:</strong> Europe's longest gorge</li>
+            <li><strong>Elafonissi Beach:</strong> Famous pink sand and turquoise water</li>
+            <li><strong>Chania & Rethymno:</strong> Coastal towns with Venetian charm</li>
+        </ul>
+
+        <h2>Culture & Cuisine</h2>
+        <p>The Cretan diet features olive oil, cheeses, lamb, wild greens, and <em>raki</em>. Try <em>dakos</em> and <em>stamnagathi</em> for a true local experience.</p>
+
+        <p><strong>Best Time to Visit:</strong> May to October</p>
+        <p><strong>Fun Fact:</strong> The myth of the Labyrinth and the Minotaur is linked to Knossos.</p>
+    </div>
+<script>
+    function goToPage(pageName) {
+        window.location.href = pageName;  // Redirects to selected HTML page
+    }
+    function SamePage(){
+        alert("You are already on same page!")
+    }
+</script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympus|XploreTravel</title>
+    <link rel="stylesheet" href="infostyle.css">
+    <link rel="icon" href="/image/XploreTravels.png" type="image/icon type">
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="/image/MountOlympus.mp4" type="video/mp4">
+    </video>
+    <div class="info-cont">
+        <div class="btns">
+            <button onclick="goToPage('index.html')" id="back">Go Back</button>
+            <button onclick="goToPage('santorini.html')">Santorini</button>
+            <button onclick="goToPage('crete.html')">Crete</button>
+            <button onclick="SamePage()">Mount Olympus</button>
+        </div>
+        <h1>🏔️ Mount Olympus – Home of the Gods</h1>
+        <p><strong>Location:</strong> Northern Greece, near the Aegean Sea</p>
+        <p><strong>Known For:</strong> Highest mountain in Greece, mythology, biodiversity</p>
+
+        <h2>Overview</h2>
+        <p>Mount Olympus is the legendary home of the twelve Olympian gods. It's also a national park and a UNESCO Biosphere Reserve, teeming with plant species and wildlife.</p>
+
+        <h2>Key Attractions</h2>
+        <ul>
+            <li><strong>Mytikas Peak:</strong> The highest summit in Greece</li>
+            <li><strong>Prionia Trailhead:</strong> Starting point for treks</li>
+            <li><strong>Dion:</strong> Archaeological ruins at the mountain’s base</li>
+            <li><strong>Enipeas Gorge:</strong> A forest trail with waterfalls</li>
+        </ul>
+
+        <h2>Culture & Significance</h2>
+        <p>Olympus is a sacred symbol in Greek mythology. It's inspired myths, art, and spiritual traditions for millennia.</p>
+
+        <p><strong>Best Time to Visit:</strong> June to September for trekking</p>
+        <p><strong>Fun Fact:</strong> You can hike to the summit in 2 days with basic mountaineering skill.</p>
+    </div>
+
+<script>
+    function goToPage(pageName) {
+        window.location.href = pageName;  // Redirects to selected HTML page
+    }
+    function SamePage(){
+        alert("You are already on same page!")
+    }
+</script>
+</body>
+
+</html>
